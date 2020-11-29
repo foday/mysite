@@ -4,7 +4,7 @@ from .models import Question, Choice
 
 # Create your views here.
 #def index(request):
-#    return HttpResponse("Hello. You're at the polls index")
+#    return HttpResponse("Hello django. You're at the polls index")
 
-def index(request):
-    return render(request, 'polls/index.html')
+#def index(request):
+    #return render(request, 'polls/index.html')
